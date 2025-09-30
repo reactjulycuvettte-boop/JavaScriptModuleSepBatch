@@ -64,3 +64,49 @@ Framework/Library ===> Modules/Packages ===> Programming Language ===> Program =
 
 
 1. Global or Common Attributes.
+
+
+
+
+<!-- JavaScript Module - Session - 3 - Introduction to CSS. -->
+
+33. Introduction to CSS.
+34. Different ways to write CSS
+   - External CSS
+   - Internal CSS
+   - Inline CSS
+35. CSS Syntax
+36. Introduction to Selectors
+37. What are selectors?
+38. Different types of selectors
+  - Type selectors - just a name tag.
+  - Class selectors
+  - ID selectors
+  - Attribute selectors
+  - Pseudo classes
+  - User action pseudo-classes
+  - Tree-structural pseudo-classes 
+  - The input pseudo-classes 
+39. Combinators
+40. Pseudo elements (Focus mainly on before & after)
+41. CSS Inheritance and Cascading
+42. Specificity - Talk briefly and demonstrate which set of style from one selector will override others and why Cascading Inheritance & controlling the inheritance with universal values.
+43. Introduction to the Box Model.
+
+
+A. CSS = Cascading Stylesheet.
+B. Presentation of Web pages or Styling of HTML Tags.
+C. Controls the layout, colors, fonts, responsiveness.
+
+
+A. Inline-CSS. 
+B. Internal CSS.
+C. External CSS.
+
+Specifity - A > B > C
+
+1. Tag Selector.
+2. Class Selector.
+3. Id Selector.
+
+Specifity - 3 > 2 > 1

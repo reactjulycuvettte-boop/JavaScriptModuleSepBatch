@@ -1,0 +1,49 @@
+ul {
+  background-color: blueviolet;
+}
+
+
+/* selector {
+  property: value;
+} */
+
+
+h5 {
+  background-color: fuchsia;
+}
+
+.secondList {
+  background-color: deepskyblue;
+  color:darkmagenta;
+}
+
+#uniqueHead {
+  color: red;
+}
+
+
+a[href="https://www.google.com"] {
+  background-color: coral;
+}
+
+a:visited {
+  background-color: gold;
+}
+
+a:active {
+  background-color: red;
+}
+
+input[type="text"]:focus {
+  background-color: green;
+}
+
+
+.hoverMe:hover {
+  background-color: mediumseagreen;
+}
+
+
+.orderList li:last-child{
+  background-color: darkkhaki;
+}
