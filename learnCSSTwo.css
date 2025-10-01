@@ -1,0 +1,163 @@
+.navLink {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: red;
+  color: white;
+}
+
+.navLink:active {
+  background-color: blue;
+  color: white;
+}
+
+.searchInput:focus {
+  background-color: aqua;
+  color: red;
+}
+
+.studentList {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+.student {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+/* .student.student1 {
+  background-color: red;
+} */
+
+/* .student:first-child {
+  background-color: red;
+  color: white;
+}
+
+ .student:last-child {
+  background-color: blue;
+  color: white;
+}
+
+.student:nth-child(2) {
+  background-color: green;
+  color: white;
+} */
+
+/* .student:nth-child(even) {
+  background-color: aqua;
+  color: white;
+}
+
+.student:nth-child(odd) {
+  background-color: red;
+  color: white;
+} */
+
+/* p {
+  color: rgb(25, 0, 255);
+}
+
+
+.container p {
+  color: rgb(255, 0, 0);
+}
+
+
+.container p:first-child {
+  color: rgb(0, 255, 0);
+}
+
+.container p:first-of-type {
+  color: rgb(255, 119, 0);
+}
+
+.container > p {
+  color: rgb(255, 0, 230);
+} */
+
+
+/* Descendant Combinator */
+
+.container .firstP {
+  color: rgb(33, 191, 43);
+}
+
+.container .nested p {
+  color: rgb(255, 0, 0);
+}
+
+/* Child Combinator */
+
+.container > p {
+  color: rgb(255, 0, 0) !important;
+}
+
+/* Next Adjacent Sibling Combinator */
+
+.container + h1 {
+  color: rgb(80, 255, 71);
+}
+
+/* General Sibling Combinator */
+
+.container ~ h1 {
+  color: rgb(0, 251, 255);
+}
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Psuedo Elements */
+
+.psuedoElement::before {
+  content: "===> ";
+}
+
+.psuedoElement::after {
+  content: " <===";
+}
+
+
+
+/* Specificity Hierarchy */
+
+/* 10000 => !important */
+/* 1000 => Inline Styles  */
+/* 100 => Id Styles  */
+/* 10 => class/attribute/pseudo-selectors */
+/* 1 => Element/tag/.psuedoElement */
+/* 0 => Universal Selector */
+
+
+.wrapper {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blue;
+  font-weight: 600;
+}
+
+
+.forcedInherit h4 {
+  font-weight: inherit;
+  font-size: 32px;
+}
+
+
+
+
+
+
+
+
+

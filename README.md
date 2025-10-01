@@ -110,3 +110,16 @@ Specifity - A > B > C
 3. Id Selector.
 
 Specifity - 3 > 2 > 1
+
+
+<!-- JavaScript Module - Session - 4 - Deep Dive into the CSS Box Model -->
+
+44. Types of boxes
+45. Block box
+46. Inline box
+47. Parts of a box : Content box Padding box Border box Margin box
+48. Introduce to the box properties  Margin Padding Border Box-sizing
+49. The display property
+    - Block
+    - Inline-block
+    - Inline
