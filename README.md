@@ -123,3 +123,37 @@ Specifity - 3 > 2 > 1
     - Block
     - Inline-block
     - Inline
+
+
+<!-- JavaScript Module - Session - 5 - HTML Form and other tags -->
+
+
+50. The form element and its attributes
+    - action method
+    - The form elements
+    - label input
+    - Different input types
+    - text password radio checkbox submit File
+    - select textarea button
+51. The div and span tags. When to use what?
+52. The img and video tags
+53. Iframe - The Inline frame element
+54. Tables
+55. Explain colspan and rowspan
+56. Demonstrate some complicated table layout.
+
+
+
+
+<!-- Notes of HTML Forms -->
+
+Form - To take user input.
+action - where to send form data (URL).
+method - how to send data (POST or GET)
+
+CRUD Operation...
+Create - Post Method.
+Read - Get Method.
+Update - Put Method.
+Delete - Delete Method.
+

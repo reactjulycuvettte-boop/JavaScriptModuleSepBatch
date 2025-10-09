@@ -1,0 +1,65 @@
+.pixel {
+  width: 350px;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.percent {
+  background-color: blue;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.viewportWidth {
+  width: 30vw;
+  height: 40vh;
+  background-color: green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.rem {
+  font-size: 1.2rem;
+  background-color: aqua;
+  color: darkred;
+}
+
+.container {
+  width: 50%;
+}
+
+
+
+
+.typographyContainer p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: blueviolet;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  /* white-space:unset; */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* text-shadow:  1px 10px red; */
+}

@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+.gridItem {
+  /* width: 50px; */
+  height: 50px;
+}
+
+
+.gridItem1 {
+  background-color: red;
+}
+.gridItem2 {
+  background-color: blue;
+}
+.gridItem3 {
+  background-color: green;
+}
+.gridItem4 {
+  background-color: cyan;
+}
+.gridItem5 {
+  background-color: magenta;
+}
+.gridItem6 {
+  background-color: olive;
+}
+.gridItem7 {
+  background-color: burlywood;
+}
+.gridItem8 {
+  background-color: pink;
+}
+.gridItem9 {
+  background-color: purple;
+}
+.gridItem10 {
+  background-color: goldenrod;
+}

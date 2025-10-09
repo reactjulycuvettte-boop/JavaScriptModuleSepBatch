@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms</title>
+</head>
+<body>
+  <h1>HTML Forms</h1>
+  <form action="/submitData" method="POST" id="form" class="formClass">
+    <label for="firstName">First Name:</label>
+    <input name="firstName" type="text" placeholder="Enter your First Name..."  required id="firstName" class="firstName" minlength="3" maxlength="10" >
+    <br>
+    <br>
+    <label for="lastName">Last Name:</label>
+    <input name="lastName" type="text" placeholder="Enter your Last Name...">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input  name="email" type="email" placeholder="Enter your Email..." required>
+    <br>
+    <br>
+    <label for="age">Age:</label>
+    <input name="age" type="number" placeholder="Enter your age..." min="18"  required>
+    <br>
+    <br>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <label>
+        <input type="radio" name="gender" value="male" checked>
+        Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female">
+        Female
+      </label>
+      <label>
+        <input type="radio" name="gender" value="others">
+        Others
+      </label>
+    </fieldset>
+    <br>
+    <br>
+
+
+    <fieldset>
+      <legend>Interests</legend>
+      <label>
+        <input type="checkbox" name="interests" value="HTML">
+        HTML
+      </label>
+      <label>
+        <input type="checkbox" name="interests" value="CSS">
+        CSS
+      </label>
+      <label>
+        <input type="checkbox" name="interests" value="JavaScript">
+        JavaScript
+      </label>
+    </fieldset>
+    <br>
+    <br>
+    <label for="doc">Upload Doc:</label>
+    <input type="time">
+
+    <br>
+    <br>
+
+    <label for="password">Password:</label>
+    <input  name="password" type="password" placeholder="Enter your Password..." required>
+    <br>
+    <br>
+    <label for="country">Select a Country:</label>
+    <select name="country" id="country">
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+      <option value="russia">Russia</option>
+      <option value="iran">Iran</option>
+      <option value="china">China</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+
+
+</body>
+</html>
