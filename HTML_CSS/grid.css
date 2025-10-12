@@ -7,6 +7,9 @@
 .gridContainer {
   padding: 10px;
   background-color: lightcoral;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .gridItem {
@@ -17,6 +20,8 @@
 
 .gridItem1 {
   background-color: red;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 .gridItem2 {
   background-color: blue;
