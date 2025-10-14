@@ -13,15 +13,18 @@ let x = null;
 
 // Array 
 
-let array = ["ssad" , 12123, true, "assdasd"]
+let array = ["ssad" , 12123, true, "assdasd", [2, q34r34, 345], {naame: "asdshjfbh"}, 234234]
 // Objects
 
 const object = {
   name : "Shubham",
   age: 29,
+  hobbies: ["dwf", "wewed", "eewewe"],
   adddress: "Noida",
   isIndian: true
 }
+
+// Empty
 
 let line = ""
 let array2 = []
