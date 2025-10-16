@@ -170,7 +170,231 @@ console.log(mySpecialRequirement)
 
 const mySpecialRequirementIndex = users.findIndex(user => user.name === "abcd")
 console.log(mySpecialRequirementIndex) 
+console.log(typeof users)
 
+
+// Transformation Methods
+
+
+const products = [
+  { id: 1, name: "Laptop", price: 1000, inStock: true },
+  { id: 2, name: "Mouse", price: 200, inStock: false },
+  { id: 3, name: "Keyboard", price: 300, inStock: false },
+  { id: 4, name: "Wifi Router", price: 400, inStock: true },
+]
+
+// filter method
+
+const availableProducts = products.filter(product => product.inStock)
+console.log(availableProducts)
+
+
+// map 
+
+const names = products.map(product => product.name)
+console.log(names)
+
+const prices = products.forEach(product => product.price)
+console.log(prices)
+
+// Reduce
+
+const total = products.reduce((finalValue, product) => finalValue + product.price, 500)
+console.log(`Total: $${total}`)
+
+// sum = accumulator = 0
+
+
+// String Interpolation
+
+const school = "Paul's"
+console.log(`St. ${school} School`)
+
+// Spread Operator
+
+const arr1 = [ 1, 2, 3 ]
+const arr2 = [ 4, 5, 6 ]
+// const combinedArray = [ ...arr1, ...arr2]
+const combinedArray = arr1.concat(arr2)
+console.log(combinedArray)
+
+
+
+// ...arr1 = 1, 2, 3
+
+
+const colors = ["red", "blue", "green"]
+colors.forEach(color => {
+  console.log(color)
+}) 
+
+// for....of
+
+// for(const element of array) {
+//   console.log(element)
+// }
+
+// Objects
+
+// OOPS - Object Oriented Programming
+// Class and Objects
+// => Encapsulation
+// => Abstraction
+// => Inheritance
+// => Poylmorphism
+
+
+function createUser(name, age) {
+  return {
+    name,
+    age,
+    isAdult: function() {
+      return this.age >= 18
+    }
+  }
+}
+
+const user1 = createUser("Shubham", 29)
+const user2 = createUser("navin", 26)
+console.log(user2)
+
+
+// Constructor Function
+function User(name, age) {
+  this.name = name
+  this.age = age
+  this.isAdult = function() {
+    return this.age >= 18
+  }
+}
+
+
+const person1 = new User("Bob", 32)
+console.log(person1)
+console.log(person1.isAdult())
+
+
+// Value vs Reference Types
+
+
+let p = 10;
+let q = p // Value copy
+console.log(q)
+q = 20;
+console.log(p)
+
+
+// References
+
+let obj1 = { item: 30 }
+let obj2 = obj1
+obj2.item = 40
+console.log(obj1.item)
+
+const animal = { name: "Bruno"}
+animal.age = 12
+animal["home"] = "delhi"
+// console.log(animal)
+
+// delete animal.age
+// console.log(animal)
+
+// Enumerating Objects
+for (let key in animal) {
+  console.log(`${key}: ${animal[key]}`)
+}
+
+
+// Built-in Objects
+console.log(Math.PI)
+console.log(Math.round(4.5))
+console.log(Math.random())
+console.log(Math.max(1, 5, 3))
+
+// String Methods
+const text = "Hello World"
+console.log(text.length)
+console.log(text.toUpperCase())
+console.log(text.includes("World"))
+console.log(text.slice(0, 8))
+
+// Template Literals
+
+// Date Object
+const now = new Date()
+console.log(now)
+console.log(now.getFullYear())
+
+
+
+// Functions
+
+
+// Hoisted Behaviour of Function
+
+callMe()
+
+function callMe() {
+  // alert("I have called")
+}
+
+
+// variables and functions
+
+// console.log(tellMe)
+let tellMe = "asdasdas"
+
+// Temporal Dead Zone
+
+
+// Arguments Objects & Rest Operator
+
+function sumTraditional() {
+  console.log(arguments) // Array like Object
+  let total = 0;
+  for(let i = 0; i < arguments.length; i++) {
+    total += arguments[i]
+  }
+  return total
+}
+
+// total = total + arguments[i]
+// total = 0 + 1 = 1
+// total = 1 + 2 = 3
+
+console.log(sumTraditional(1, 2, 3, 4))
+
+
+
+function sumModern(...numberss) {
+  console.log(numberss)
+  return numberss.reduce((total, num) => total + num, 0)
+}
+
+console.log(sumModern(2, 4, 6, 8))
+
+
+function intro(name = "Anonymous") {
+  console.log(`Hello, My name is ${name}`)
+}
+
+intro("Shubham")
+
+
+// const document = {
+//   html : {
+//     head: {
+//       title: "DOM Website"
+//     }
+//     body: {
+//       div: {
+//         h1
+//       }
+//     }
+//   }
+// }
+
+// document.html.body.div
 
 
 

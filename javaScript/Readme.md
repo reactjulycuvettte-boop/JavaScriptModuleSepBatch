@@ -8,8 +8,9 @@
 2. JS Variables.
 3. JS Constants.
 4. JS Datatypes - Primitives and Complex.
-5. JS Dynamics Typing.
+5. JS Dynamic Typing.
 6. Basics of Objects, Arrays and Functions.
 7. parseInt.
 8. Control Statments.
-9. 
+9. Array Methods...
+10. Objects...
